@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/ReactApps/static/css/main.8adaf100.chunk.css",
+    "main.js": "/ReactApps/static/js/main.04eb9e3e.chunk.js",
+    "main.js.map": "/ReactApps/static/js/main.04eb9e3e.chunk.js.map",
+    "runtime-main.js": "/ReactApps/static/js/runtime-main.87817e2f.js",
+    "runtime-main.js.map": "/ReactApps/static/js/runtime-main.87817e2f.js.map",
+    "static/css/2.8e20672c.chunk.css": "/ReactApps/static/css/2.8e20672c.chunk.css",
+    "static/js/2.38eb834d.chunk.js": "/ReactApps/static/js/2.38eb834d.chunk.js",
+    "static/js/2.38eb834d.chunk.js.map": "/ReactApps/static/js/2.38eb834d.chunk.js.map",
+    "index.html": "/ReactApps/index.html",
+    "precache-manifest.58b3862a948bd75cf9fb151f7d1cdcce.js": "/ReactApps/precache-manifest.58b3862a948bd75cf9fb151f7d1cdcce.js",
+    "service-worker.js": "/ReactApps/service-worker.js",
+    "static/css/2.8e20672c.chunk.css.map": "/ReactApps/static/css/2.8e20672c.chunk.css.map",
+    "static/css/main.8adaf100.chunk.css.map": "/ReactApps/static/css/main.8adaf100.chunk.css.map",
+    "static/js/2.38eb834d.chunk.js.LICENSE.txt": "/ReactApps/static/js/2.38eb834d.chunk.js.LICENSE.txt",
+    "static/media/CNLogo.svg": "/ReactApps/static/media/CNLogo.26e4a703.svg",
+    "static/media/Calculater.svg": "/ReactApps/static/media/Calculater.c201bb4b.svg",
+    "static/media/ChuckNorrisJokes.svg": "/ReactApps/static/media/ChuckNorrisJokes.d6f03dc6.svg",
+    "static/media/CodeEditor.svg": "/ReactApps/static/media/CodeEditor.5fb397b8.svg",
+    "static/media/FaceRecognition.svg": "/ReactApps/static/media/FaceRecognition.62ec4210.svg",
+    "static/media/RoboFriends.svg": "/ReactApps/static/media/RoboFriends.ea5ba632.svg",
+    "static/media/RoboFriends.css": "/ReactApps/static/media/SEGA.12a3db8b.woff",
+    "static/media/App.css": "/ReactApps/static/media/Titillium-Regular.6ea4df27.woff",
+    "static/media/style.css": "/ReactApps/static/media/c8a9c5064d8faa5e7acdecfeee4e9075.c8a9c506.ttf",
+    "static/media/collapse.svg": "/ReactApps/static/media/collapse.1e5cee7c.svg",
+    "static/media/download.svg": "/ReactApps/static/media/download.779331cb.svg",
+    "static/media/expand.svg": "/ReactApps/static/media/expand.cca05a65.svg",
+    "static/media/logo.svg": "/ReactApps/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.87817e2f.js",
+    "static/css/2.8e20672c.chunk.css",
+    "static/js/2.38eb834d.chunk.js",
+    "static/css/main.8adaf100.chunk.css",
+    "static/js/main.04eb9e3e.chunk.js"
+  ]
+}
