@@ -1,0 +1,108 @@
+@font-face {
+  font-family: "digital display tfb";
+  src: url("@font-face/c8a9c5064d8faa5e7acdecfeee4e9075.eot"); /* IE9*/
+  src: url("@font-face/c8a9c5064d8faa5e7acdecfeee4e9075.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("@font-face/c8a9c5064d8faa5e7acdecfeee4e9075.woff2")
+      format("woff2"),
+    /* chrome、firefox */
+      url("@font-face/c8a9c5064d8faa5e7acdecfeee4e9075.woff") format("woff"),
+    /* chrome、firefox */ url("@font-face/c8a9c5064d8faa5e7acdecfeee4e9075.ttf")
+      format("truetype"),
+    /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+      url("@font-face/c8a9c5064d8faa5e7acdecfeee4e9075.svg#digital display tfb")
+      format("svg"); /* iOS 4.1- */
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap");
+
+.calcApp {
+  margin: 2em 2em;
+  background: rgb(40, 43, 68);
+  border-radius: 1em;
+  overflow: hidden;
+  box-shadow: 0px 10px 10px 5px rgba(0, 0, 0, 0.4);
+}
+
+.displayResult,
+.displayQuery {
+  margin: 0 !important;
+}
+
+.displayQuery {
+  font-size: 1.5rem;
+}
+
+.displayResult {
+  font-size: 4rem;
+}
+
+.display {
+  margin: 0;
+  padding: 1em 2em;
+  text-align: right;
+  user-select: none;
+  font-family: "digital display tfb" !important;
+  font-size: 16px;
+  font-style: normal;
+  background: rgba(0, 0, 0, 0.3);
+  color: whitesmoke;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
+}
+
+.btnPanel {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  padding: 10px;
+  min-height: 500px;
+}
+
+.calcBtn {
+  font-family: "Ubuntu", sans-serif;
+  outline: none;
+  font-size: 2rem;
+  border: none;
+  border-radius: 10px;
+  background: rgb(218, 218, 218);
+}
+
+.calcBtn:hover {
+  cursor: pointer;
+  filter: brightness(120%);
+}
+
+.calcBtn:active {
+  transform: translateY(1px);
+}
+
+.calcBtn:focus {
+  outline: none;
+}
+
+.operator {
+  background: #4b778d;
+  color: white;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.decimal,
+.clear {
+  font-weight: bold;
+}
+
+.clear {
+  background: rgb(122, 9, 9);
+  color: white;
+}
+
+.equalSign {
+  grid-column: -2;
+  grid-row: 2 / span 4;
+  font-weight: bold;
+  background: #558776;
+}

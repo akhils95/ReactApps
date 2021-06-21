@@ -1,0 +1,53 @@
+.resumePage {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  background-color: whitesmoke;
+}
+
+.RBHeader {
+  width: 90vw;
+  height: 80px;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px;
+  z-index: 10;
+  transform: translateY(20px);
+  border-radius: 40px;
+}
+
+.resumeName {
+  background: none;
+  color: white;
+  border: none;
+  text-align: left;
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+.resumeName:focus {
+  border: none;
+  outline: none;
+}
+
+.resumeDownloadIcon {
+  height: 2.5rem;
+  cursor: pointer;
+}
+
+.resumeDownloadIcon:hover {
+  filter: brightness(120%);
+  transform: scale(110%);
+}
+
+.resumeDownloadIcon:active {
+  transform: scale(90%);
+}
+
+@media screen and (max-width: 800px) {
+  .RBHeader {
+    padding: 0 20px;
+  }
+}
